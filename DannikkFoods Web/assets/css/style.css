@@ -1,0 +1,114 @@
+body {
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+.container {
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+.button-1{
+    height:38px;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+header {
+    background:tomato;
+    color:white;
+    border-bottom: solid white 3px;
+    min-height: 60px;
+    padding-top:20px;
+}
+
+header a{
+    color:#131235f8;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brandname{
+    float:left;
+
+}
+
+header #brandname h1{
+    margin:0;
+    padding:0;
+}
+
+header nav{
+    float:right;
+    margin-top:12px;
+}
+
+header .current a{
+        font-weight:bold;
+}
+
+header a:hover{
+    font-weight: bold;
+    color:white;
+}
+
+header img{
+    width:30px;
+    height:30px;
+    padding-right:20px;
+}
+
+#showcase{
+    min-height: 500px;
+    background:url('../images/backgsoup4.png') no-repeat 0 -500px;
+    text-align:center;
+    color:rgb(235, 227, 227);
+    line-height: 1.3;
+    
+ }
+#showcase h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+    
+}
+
+#showcase p{
+    font-size:30px;
+}
+
+.boxes{
+line-height:1.1;
+padding:0;
+margin:0;
+    
+}
+
+.box img{
+    width:300px;
+    padding-top:20px;
+    
+}
+
+.box h3{
+    font-size:30px;
+    color:darkblue;
+}
+
